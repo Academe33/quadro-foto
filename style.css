@@ -15,8 +15,8 @@ body {
 }
 
 #image {
-    width: 100%;
-    height: 100%;
+    width: 120%;
+    height: 120%;
     object-fit: contain; /* Mantém a proporção da imagem */
     transition: transform 0.2s; /* Animação suave para o zoom */
     cursor: pointer; /* Muda o cursor para indicar que a imagem é interativa */
