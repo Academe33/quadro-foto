@@ -1,7 +1,7 @@
 body {
     margin: 0; /* Remove a margem padrão */
     overflow: hidden; /* Remove a barra de rolagem */
-    background-color: black; /* Definindo o fundo preto */
+    background-color: #1a1a1a
 }
 
 .image-container {
