@@ -1,25 +1,23 @@
-.container {
-    position: relative;
-    text-align: center;
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
 }
 
-.full-image {
+.image-container {
+    overflow: hidden;
+    position: relative;
+    width: 80vw; /* Largura do contêiner */
+    height: 80vh; /* Altura do contêiner */
+}
+
+#image {
     width: 100%;
     height: auto;
-}
-
-.botao-baixar {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    background-color: #7E32D6;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 5px;
-}
-
-.botao-baixar:hover {
-    background-color: #5a24a8;
+    transition: transform 0.2s; /* Animação suave para o zoom */
+    cursor: pointer; /* Muda o cursor para indicar que a imagem é interativa */
 }
