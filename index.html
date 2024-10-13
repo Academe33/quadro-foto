@@ -3,18 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quadro-Foto</title>
     <link rel="stylesheet" href="style.css">
+    <title>Quadro de Fotos</title>
 </head>
 <body>
-    <div class="container">
-        <!-- Imagem em tela cheia -->
-        <img src="sua-imagem.jpeg" alt="Imagem em Tela Cheia" class="full-image">
-        
-        <!-- Botão de Baixar -->
-        <a href="https://drive.google.com/uc?export=download&id=1aTR-v5Vg21EhPmXxSA2MRVwFArHyRDn_" class="botao-baixar" target="_blank">Baixar</a>
+    <div class="image-container">
+        <img id="image" src="sua-imagem.jpeg" alt="Sua Imagem">
     </div>
-    
+    <button id="downloadBtn" onclick="window.open('https://drive.google.com/uc?export=download&id=1aTR-v5Vg21EhPmXxSA2MRVwFArHyRDn_', '_blank')">Baixar</button>
     <script src="script.js"></script>
 </body>
 </html>
