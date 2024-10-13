@@ -12,13 +12,13 @@ body, html {
 .fullscreen-image {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 100vh; /* Usa 100% da altura da tela */
 }
 
 .fullscreen-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover; /* Garante que a imagem preencha a tela corretamente */
 }
 
 .back-button {
