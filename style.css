@@ -10,8 +10,8 @@ body {
 
 .image-container {
     position: relative;
-    width: 100vw; /* Largura total da tela */
-    height: 100vh; /* Altura total da tela */
+    width: 110vw; /* Largura total da tela */
+    height: 110vh; /* Altura total da tela */
 }
 
 #image {
